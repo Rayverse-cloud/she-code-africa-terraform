@@ -1,0 +1,2 @@
+Written Explanation 
+How Terraform allows infrastructure to be reused across related resources: Instead of hardcoding IDs, Terraform lets resources reference each other directly using expressions like aws_vpc.main_vpc.id or aws_subnet.public_subnet.id. This means when the VPC is created, its ID is automatically passed to the subnet, security group, and EC2 instance, no manual copy and pasting is needed. Change one resource and everything that depends on it updates automatically.

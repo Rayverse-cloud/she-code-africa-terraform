@@ -1,0 +1,2 @@
+Written Explanation 
+Why allowing SSH from 0.0.0.0/0 is bad practice: Opening SSH to the entire internet means anyone in the world can attempt to connect to your server on port 22. Attackers constantly scan the internet for open SSH ports and run automated brute-force attacks trying thousands of username and password combinations. By restricting SSH to your specific IP address only (/32), you dramatically reduce your attack surface, making it nearly impossible for anyone else to even attempt a login.

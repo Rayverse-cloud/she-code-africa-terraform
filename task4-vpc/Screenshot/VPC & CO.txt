@@ -1,0 +1,5 @@
+Written Explanation 
+VPC — a private, isolated network in AWS that you fully control. Think of it as your own building inside a shared city. Nothing gets in or out unless you allow it.
+Subnet — a smaller network range carved out inside the VPC, like floors inside a building. Public subnets can reach the internet; private subnets cannot.
+Internet Gateway — the front door of your VPC. Without it, nothing inside the VPC can communicate with the outside internet.
+Route Table — the traffic rulebook. It tells the subnet where to send traffic. Our rule says: anything going to 0.0.0.0/0 (the internet) should go through the Internet Gateway.

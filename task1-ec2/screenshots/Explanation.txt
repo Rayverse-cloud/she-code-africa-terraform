@@ -1,0 +1,4 @@
+Written Explanation.
+Provider — tells Terraform which cloud platform to use and how to authenticate. Here we specified AWS and the us-east-1 region.
+Resource — defines a specific piece of infrastructure to create. Here it's one EC2 instance with a specific AMI and instance type.
+Tags — key value labels attached to AWS resources for identification, organisation, and cost tracking. Here we tagged the instance with its name and environment.

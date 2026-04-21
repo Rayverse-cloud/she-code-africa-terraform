@@ -1,0 +1,2 @@
+Written Explanation 
+Why versioning is useful: Every time a file is uploaded to S3, versioning keeps a copy of every previous version. This means if a backup file is accidentally overwritten, corrupted, or deleted, you can restore any older version. It protects against both human error and application failures, making it essential for any bucket storing important data like backups.
